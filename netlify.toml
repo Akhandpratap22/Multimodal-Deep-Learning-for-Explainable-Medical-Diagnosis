@@ -1,5 +1,6 @@
 [build]
-publish = "web"
+base = "web"
+publish = "."
 
 [[redirects]]
 from = "/results/figures/*"
