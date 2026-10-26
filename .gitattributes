@@ -1,0 +1,8 @@
+# Git LFS tracking for large model weight files
+saved_models/*.h5 filter=lfs diff=lfs merge=lfs -text
+saved_models/*.weights.h5 filter=lfs diff=lfs merge=lfs -text
+
+# Also track raw images if included
+data/raw/images/*.png filter=lfs diff=lfs merge=lfs -text
+data/raw/images/*.jpg filter=lfs diff=lfs merge=lfs -text
+data/raw/images/*.jpeg filter=lfs diff=lfs merge=lfs -text

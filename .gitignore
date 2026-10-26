@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.env
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large cache/logs
+*.log
+.system_generated/
+tmp/
+temp/
+
+# Local and patient-linked data/artifacts must not be published by default.
+data/raw/
+data/processed/
+saved_models/
+results/figures/
+
+# Metrics may be committed only when they contain reviewed, shareable aggregate results.

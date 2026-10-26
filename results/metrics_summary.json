@@ -1,0 +1,5 @@
+{
+  "status": "not_evaluated",
+  "results": {},
+  "message": "The supplied paper is a study protocol and contains no measured results. Run training and evaluation on a verified patient-linked dataset to populate this file."
+}

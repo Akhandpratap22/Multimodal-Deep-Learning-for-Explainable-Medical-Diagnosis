@@ -1,0 +1,8 @@
+[build]
+publish = "web"
+
+[[redirects]]
+from = "/results/figures/*"
+to = "https://multimodal-medical-diagnosis-api.onrender.com/results/figures/:splat"
+status = 200
+force = true
